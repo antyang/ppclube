@@ -1,0 +1,150 @@
+*{
+	margin: 0;
+	outline:0;
+	padding: 0;
+	border: 0;
+}
+
+body{
+	min-height: 900px;
+	max-width:1000px;
+	margin: 0 auto;
+	font-family: "arial";
+	/*background-color: black;*/
+}
+
+#banner{
+	background: linear-gradient(#E9E9E9,#FFF,#F4F4F4);
+	height: 150px;
+	width: 1000px;
+	display: inline-block;
+}
+	#banner img{
+		margin-left: 10px;
+	}
+	#banner h1{
+		margin-right: ;
+		font-size: 18px;
+		margin-left: 698px;
+		margin-top: -38px;
+	}
+	nav{
+		margin-top: 15px;
+		border-top: 1px solid #CCCCCC;
+		background: linear-gradient(#F4F7F8,#D5DDE3,#E8ECF1);
+	}
+	#banner ul li{
+		display: inline-block;
+		font-size: 12px;
+		font-weight: bold;
+		padding: 10px 15px 10px 15px;
+		border-right: 1px solid #CCCCCC;
+	}
+
+
+#about{
+	display: inline-block;
+	width: 985px;
+	padding-left: 15px;
+	padding-top: 15px;
+	background-color: black;
+
+}
+	#about img{	
+		display: inline-block;
+		border: 5px solid white;
+	}
+	#content{
+		width: 535px;
+		min-height: 265px;
+		margin-top: -269px;
+		margin-left: 400px;
+		padding: 0px 10px 0px 10px;
+		background-color: black;
+	}
+		#content h1{
+			height: 13px;
+			background-color: orange;
+			text-transform: uppercase; 
+			font-size: 13px;
+			padding: 10px;
+		}
+		#content h2{
+			background-color: grey;
+			color: white;
+			font-size: 14px;
+			padding: 10px ;
+		}
+		#content p{
+			background-color: grey;
+			color: white;
+			font-size: 12px;
+			padding: 10px;
+			height: 78px;
+		}
+#now_has{
+	display: inline-block;
+	background-color: black;
+	width: 1000px;
+	padding-top: 5px;
+}
+	#now_has img{
+		display: inline-block;
+		height: 18px;
+		width: 50px;
+		margin-left: 35px;
+		border-top-right-radius: 3px;
+		border-bottom-right-radius: 3px;
+	}
+	#now_has p{
+		width: 400px;
+		display: inline-block;
+		font-size: 11px;
+		padding-left: 10px;
+		color: white;
+	}
+
+
+.usage{
+	height: 300px;
+	width: 1000px;
+	background-color: black;
+	display: inline-block;
+}
+	.usage div{
+		display: inline-block;
+		width: 222px;
+		margin-top: 5px;
+		margin-left: 15px;
+		background: linear-gradient(#FFF,#FFF5DA);
+	}
+
+	.usage h1{
+		height: 15px;
+		padding: 5px;
+		background-color: orange;
+		text-transform: uppercase; 
+		font-size: 14px;
+	}
+	.usage p{
+		font-size: 11px;
+		padding: 10px 15px 10px 15px;
+
+	}
+	.usage #readmore{
+		margin-left: 110px;
+		padding-bottom: 10px;
+	}
+
+
+
+
+
+
+/*				.usage h4{
+					display: inline-block;
+				}
+
+				.usage img{
+					/*display: inline-block;*/
+				}*/
